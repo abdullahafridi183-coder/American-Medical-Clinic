@@ -1,0 +1,1 @@
+Place authorized clinic JPG/PNG/WebP images here and update index.html.
