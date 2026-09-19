@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica American Medical — atendimento médico moderno, acolhedor e multilíngue em Belo Horizonte.">
+  <meta name="theme-color" content="#071b2e">
+  <title>American Medical | Belo Horizonte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <span data-i18n="top">Atendimento acolhedor • Belo Horizonte, MG</span>
+    <a href="#appointment" data-i18n="book">Agendar consulta</a>
+  </div>
+
+  <header class="header" id="header">
+    <a class="brand" href="#home" aria-label="American Medical">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span><b>AMERICAN</b><small>MEDICAL</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#about" data-i18n="navAbout">Sobre</a>
+      <a href="#services" data-i18n="navServices">Serviços</a>
+      <a href="#experience" data-i18n="navExperience">Experiência</a>
+      <a href="#gallery" data-i18n="navGallery">Galeria</a>
+      <a href="#faq" data-i18n="navFaq">FAQ</a>
+      <a href="#contact" data-i18n="navContact">Contato</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-btn active" data-lang="pt">PT</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <a class="header-cta" href="#appointment" data-i18n="book">Agendar consulta</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><i></i><span data-i18n="eyebrow">Cuidado médico com uma experiência humana</span></div>
+        <h1 data-i18n="heroTitle">Saúde com <em>confiança</em>, tecnologia e acolhimento.</h1>
+        <p data-i18n="heroText">Um espaço pensado para oferecer atendimento profissional, comunicação clara e uma experiência confortável em cada etapa.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#appointment"><span data-i18n="heroBtn">Agendar atendimento</span><b>↗</b></a>
+          <a class="btn ghost" href="#services" data-i18n="explore">Conhecer serviços</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>BH</strong><span data-i18n="metaLocation">Belo Horizonte</span></div>
+          <div><strong>PT</strong><span data-i18n="metaLanguage">Português</span></div>
+          <div><strong>EN</strong><span data-i18n="metaEnglish">English support</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-card main-media">
+          <div class="media-placeholder">
+            <span class="play">+</span>
+            <small data-i18n="mediaNote">Insira aqui a foto ou vídeo oficial da clínica</small>
+          </div>
+          <div class="floating-card">
+            <span class="pulse"></span>
+            <div><b data-i18n="openCare">Atendimento</b><small data-i18n="openCare2">Agende seu horário</small></div>
+          </div>
+        </div>
+        <div class="orbit-card"><b>+</b><span data-i18n="care">Cuidado<br>em cada detalhe</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>01</span><b data-i18n="trust1">Atendimento humano</b></div>
+      <div><span>02</span><b data-i18n="trust2">Comunicação clara</b></div>
+      <div><span>03</span><b data-i18n="trust3">Experiência moderna</b></div>
+      <div><span>04</span><b data-i18n="trust4">PT / EN</b></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 / <span data-i18n="aboutLabel">SOBRE</span></div>
+      <div class="two-col">
+        <div class="section-heading reveal">
+          <p class="kicker" data-i18n="aboutKicker">Uma clínica pensada para pessoas</p>
+          <h2 data-i18n="aboutTitle">Mais do que uma consulta. Uma experiência de cuidado.</h2>
+        </div>
+        <div class="section-text reveal">
+          <p data-i18n="aboutText">A American Medical pode usar este espaço para apresentar sua história, equipe, valores e diferenciais. O conteúdo abaixo está estruturado para receber as informações oficiais da clínica sem precisar alterar o layout.</p>
+          <div class="stat-grid">
+            <div><strong>01</strong><span data-i18n="stat1">Acolhimento</span></div>
+            <div><strong>02</strong><span data-i18n="stat2">Precisão</span></div>
+            <div><strong>03</strong><span data-i18n="stat3">Tecnologia</span></div>
+            <div><strong>04</strong><span data-i18n="stat4">Confiança</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="services">
+      <div class="section-label">02 / <span data-i18n="servicesLabel">SERVIÇOS</span></div>
+      <div class="section-heading reveal"><p class="kicker" data-i18n="servicesKicker">Atendimento</p><h2 data-i18n="servicesTitle">Serviços organizados para uma jornada simples.</h2></div>
+      <div class="service-grid" id="serviceGrid"></div>
+      <p class="edit-note" data-i18n="editNote">Os serviços abaixo são campos editáveis. Substitua pelos serviços oficialmente oferecidos pela clínica antes da publicação.</p>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-label">03 / <span data-i18n="experienceLabel">EXPERIÊNCIA</span></div>
+      <div class="experience-grid">
+        <div class="experience-copy reveal">
+          <p class="kicker" data-i18n="experienceKicker">Um espaço para cuidar melhor</p>
+          <h2 data-i18n="experienceTitle">Elegância, clareza e tecnologia em um só lugar.</h2>
+          <p data-i18n="experienceText">A estrutura desta página foi criada para destacar a clínica sem excesso de informação: mensagens curtas, chamadas claras, animações suaves e uma navegação rápida em qualquer tela.</p>
+          <ul class="check-list">
+            <li data-i18n="check1">Layout responsivo para celular, tablet e desktop</li>
+            <li data-i18n="check2">Sistema de idioma Português / English</li>
+            <li data-i18n="check3">Formulários conectados ao Google Sheets</li>
+            <li data-i18n="check4">Área preparada para fotos e vídeos oficiais</li>
+          </ul>
+        </div>
+        <div class="experience-panel reveal">
+          <div class="panel-line"><span>01</span><b data-i18n="panel1">Recepção</b><i></i></div>
+          <div class="panel-line"><span>02</span><b data-i18n="panel2">Atendimento</b><i></i></div>
+          <div class="panel-line"><span>03</span><b data-i18n="panel3">Acompanhamento</b><i></i></div>
+          <div class="panel-line"><span>04</span><b data-i18n="panel4">Cuidado contínuo</b><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-label">04 / <span data-i18n="galleryLabel">GALERIA</span></div>
+      <div class="gallery-head reveal">
+        <div><p class="kicker" data-i18n="galleryKicker">Imagem real da clínica</p><h2 data-i18n="galleryTitle">Mostre o espaço que seus pacientes vão encontrar.</h2></div>
+        <a class="instagram" href="https://www.instagram.com/clinicaamericanmedical/" target="_blank" rel="noopener">Instagram ↗</a>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large"><div class="asset-placeholder"><b>PHOTO 01</b><span data-i18n="photoHint">Coloque uma foto oficial aqui</span></div></div>
+        <div class="gallery-item"><div class="asset-placeholder"><b>PHOTO 02</b><span data-i18n="photoHint">Coloque uma foto oficial aqui</span></div></div>
+        <div class="gallery-item video"><div class="asset-placeholder"><b>VIDEO</b><span data-i18n="videoHint">Coloque um vídeo oficial aqui</span></div></div>
+      </div>
+    </section>
+
+    <section class="section appointment" id="appointment">
+      <div class="appointment-card reveal">
+        <div class="appointment-copy">
+          <div class="eyebrow"><i></i><span data-i18n="appointmentEyebrow">AGENDAMENTO</span></div>
+          <h2 data-i18n="appointmentTitle">Vamos encontrar um horário para você.</h2>
+          <p data-i18n="appointmentText">Preencha o formulário. A equipe pode retornar usando os dados informados.</p>
+        </div>
+        <form id="appointmentForm" class="form-grid">
+          <input type="hidden" name="formType" value="appointment">
+          <label><span data-i18n="name">Nome</span><input name="name" required autocomplete="name" placeholder="Seu nome"></label>
+          <label><span data-i18n="phone">Telefone</span><input name="phone" required autocomplete="tel" placeholder="+55 ..."></label>
+          <label><span data-i18n="email">E-mail</span><input name="email" type="email" autocomplete="email" placeholder="voce@email.com"></label>
+          <label><span data-i18n="service">Serviço</span><select name="service" id="serviceSelect" required></select></label>
+          <label><span data-i18n="date">Data preferida</span><input name="date" type="date"></label>
+          <label><span data-i18n="time">Horário</span><input name="time" type="time"></label>
+          <label class="full"><span data-i18n="message">Mensagem</span><textarea name="message" rows="4" placeholder="Como podemos ajudar?"></textarea></label>
+          <label class="consent full"><input type="checkbox" required><span data-i18n="consent">Concordo em enviar meus dados para contato sobre este atendimento.</span></label>
+          <button class="btn primary submit full" type="submit"><span data-i18n="send">Enviar solicitação</span><b>↗</b></button>
+          <div class="form-status full" id="appointmentStatus" role="status"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-label">05 / <span data-i18n="contactLabel">CONTATO</span></div>
+      <div class="contact-grid">
+        <div class="reveal"><p class="kicker" data-i18n="contactKicker">Onde estamos</p><h2>American Medical</h2>
+          <p class="address">Av. do Contorno, 5740<br>Santa Efigênia<br>Belo Horizonte — MG<br>30110-017, Brasil</p>
+          <a class="map-link" href="https://maps.app.goo.gl/PWeQ2Jc3kBhRoXnG9" target="_blank" rel="noopener" data-i18n="openMaps">Abrir no Google Maps ↗</a>
+          <div class="socials"><a href="https://www.instagram.com/clinicaamericanmedical/" target="_blank" rel="noopener">Instagram</a></div>
+        </div>
+        <form id="contactForm" class="contact-form reveal">
+          <input type="hidden" name="formType" value="inquiry">
+          <label><span data-i18n="name">Nome</span><input name="name" required></label>
+          <label><span data-i18n="email">E-mail</span><input name="email" type="email" required></label>
+          <label><span data-i18n="phone">Telefone</span><input name="phone"></label>
+          <label><span data-i18n="subject">Assunto</span><input name="subject"></label>
+          <label><span data-i18n="message">Mensagem</span><textarea name="message" rows="5" required></textarea></label>
+          <button class="btn primary submit" type="submit"><span data-i18n="send">Enviar mensagem</span><b>↗</b></button>
+          <div class="form-status" id="contactStatus" role="status"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-label">06 / FAQ</div>
+      <div class="two-col">
+        <div class="section-heading reveal"><p class="kicker" data-i18n="faqKicker">Dúvidas</p><h2 data-i18n="faqTitle">Informação clara antes de chegar.</h2></div>
+        <div class="faq-list reveal" id="faqList"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><span class="brand-mark"><span></span><span></span><span></span></span><div><b>AMERICAN</b><small>MEDICAL</small></div></div>
+    <p data-i18n="footerText">Website institucional • Conteúdo oficial deve ser confirmado pela clínica antes da publicação.</p>
+    <div>© <span id="year"></span> American Medical</div>
+  </footer>
+
+  <a class="floating-whatsapp" href="#" id="whatsappBtn" aria-label="WhatsApp">WA</a>
+  <script src="script.js"></script>
+</body>
+</html>
