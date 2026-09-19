@@ -2,7 +2,7 @@ const CONFIG = {
   // Paste your Google Apps Script Web App /exec URL here after deployment.
   APPS_SCRIPT_URL: "",
   // Put the clinic's official WhatsApp number in international format, digits only.
-  WHATSAPP_NUMBER: "",
+  WHATSAPP_NUMBER: "55 31 7135-2798",
   clinicInstagram: "https://www.instagram.com/clinicaamericanmedical/"
 };
 
